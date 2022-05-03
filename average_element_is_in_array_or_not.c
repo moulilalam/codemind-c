@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,arr[100],avg,sum=0,c=0;
+    int n,i,arr[100],sum=0,avg,c=0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
@@ -19,12 +19,12 @@ int main()
             c=c+1;
         }
     }
-    if(c==0)
-    {
-        printf("False");
-    }
-    else
-    {
-        printf("True");
-    }
+        if(c==0)
+        {
+            printf("False");
+        }
+        else
+        {
+            printf("True");
+        }
 }
