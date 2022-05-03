@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int arr[100],i,n,N,c=0;
+    int arr[100],n,i,m,c=0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
     }
-    scanf("%d",&N);
+    scanf("%d",&m);
     for(i=0;i<n;i++)
     {
-        if(arr[i]==N)
+        if(m==arr[i])
         {
-            c++;
+            c=c+1;
         }
     }
     if(c==0)
